@@ -1,0 +1,24 @@
+package cadenaCaracteres;
+
+public class Principal3 {
+
+	public static void main(String[] args) {
+		
+		String bien = new String("¡Hola Mundo!");
+		StringBuffer sb = new StringBuffer("Hoal Muuundo"); //Capacity 28
+		transformarCadena(sb, bien);
+		StringBuffer parriba = new StringBuffer(sb + "         ");
+		System.out.println(parriba.length());
+		
+		
+
+	}
+	static public void transformarCadena(StringBuffer ador, String ado) {
+		for (int contador = 0; contador < ado.length(); contador++) {
+			ador.setCharAt(contador, ado.charAt(
+					contador));
+		}
+		System.out.println(ador);
+	}
+
+}

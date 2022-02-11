@@ -1,0 +1,26 @@
+package teoria;
+import java.util.*;
+public class Coche {
+	Scanner teclado = new Scanner(System.in);
+	public static void main(String[] args) {
+		Coche coch1;
+		coch1=new Coche();
+		
+		
+	}
+	public String marca() {
+		System.out.println("Marca?");
+		return teclado.next();
+	}
+	public double precio() {
+		System.out.println("Precio?");
+		return teclado.nextInt();
+	}
+	public void empezar_conducir() {
+		System.out.println("Los pasos para conducir son: \n   Arrancar coche. \n Meter marcha. \n Acelerar coche. ");
+	}
+	public double CalcularPrecioIva(float precio) {
+		precio = (precio * 21) / 100;
+		return precio;
+	}
+}

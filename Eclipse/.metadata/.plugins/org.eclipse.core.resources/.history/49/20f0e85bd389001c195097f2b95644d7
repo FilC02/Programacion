@@ -1,0 +1,9 @@
+package interface3_clasesherencia;
+
+public class Perro extends Animal implements Cazador {
+	
+	public void perseguir() {
+		System.out.println("Perseguir");
+	}
+
+}

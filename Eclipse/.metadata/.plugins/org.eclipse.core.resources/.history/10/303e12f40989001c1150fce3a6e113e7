@@ -1,0 +1,10 @@
+package interface_herenciamutliple;
+
+public class Principal {
+		Perro dog = new Perro("a", "b");
+	public static void main(String[] args) {
+		new Principal();
+
+	}
+
+}

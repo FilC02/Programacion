@@ -1,0 +1,9 @@
+package interface3_clasesherencia;
+
+public interface Cazador {
+	void default(Animal cazador, Animal cazado) {
+		System.out.println(cazador + " persigue a " + cazado);
+	}
+	
+	
+}

@@ -1,0 +1,19 @@
+package empleados_poli;
+
+public class Mozos {
+	private int antiguedad;
+
+	public int getAntiguedad() {
+		return antiguedad;
+	}
+
+	public void setAntiguedad(int antiguedad) {
+		this.antiguedad = antiguedad;
+	}
+	public Mozos(String codigo, String nombre, double sueldobase, int antiguedad) {
+		super(codigo,nombre,sueldobase);
+		this.antiguedad = antiguedad;
+	}
+	
+
+}

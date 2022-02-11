@@ -1,0 +1,6 @@
+package interface_herenciamutliple;
+
+public class SerVivo  {
+	private String tipo;
+	private String localizacion;
+}

@@ -1,0 +1,18 @@
+package teoria;
+import java.util.*;
+public class Coche {
+	Scanner teclado = new Scanner(System.in);
+	public static void main(String[] args) {
+		Coche coch1;
+		coch1=new Coche();
+		
+	}
+	public String marca() {
+		System.out.println("Marca?");
+		return teclado.next();
+	}
+	public int precio() {
+		System.out.println("Precio?");
+		return teclado.nextInt();
+	}
+}

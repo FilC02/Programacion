@@ -1,0 +1,7 @@
+package empleados_poli;
+
+public class Mozos {
+	private int antiguedad;
+	
+
+}

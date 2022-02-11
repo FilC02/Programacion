@@ -1,0 +1,11 @@
+package empleados_poli;
+
+public class Dinerito {
+	public void dinero(Empleado empleado) {
+		
+		if (empleado instanceof Mozos) {
+			System.out.println(empleado.dinerito());
+		}
+		
+	}
+}

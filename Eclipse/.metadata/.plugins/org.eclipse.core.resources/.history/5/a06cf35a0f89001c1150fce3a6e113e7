@@ -1,0 +1,10 @@
+package interface_clasesnorelacionadas;
+
+public class Planta implements IaccionesImprescindibles {
+	private String denominacion;
+	
+	public void comer() {
+		System.out.println("Comerr");
+	}
+
+}

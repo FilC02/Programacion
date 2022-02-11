@@ -1,0 +1,46 @@
+package interface_herenciamutliple;
+
+public class SerVivo  {
+	private String tipo;
+	private String localizacion;
+	
+	
+	
+	
+	public SerVivo(String tipo, String localizacion) {
+		super();
+		this.tipo = tipo;
+		this.localizacion = localizacion;
+	}
+	
+	
+	
+	public SerVivo() {
+		super();
+	}
+
+
+
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	public String getLocalizacion() {
+		return localizacion;
+	}
+	public void setLocalizacion(String localizacion) {
+		this.localizacion = localizacion;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "SerVivo [tipo=" + tipo + ", localizacion=" + localizacion + "]";
+	}
+	
+	
+	
+}

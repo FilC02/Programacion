@@ -1,0 +1,16 @@
+package empleados_poli;
+
+public class Principal {
+	
+	public Principal() {
+		Empleado e1 = new Mozos("ABCSUS", "Giorgi", 1100, 5);
+		Empleado e2 = new Mensajeros("SUS", "Nika", 1100, 18);
+		System.out.println(e1.toString());
+		System.out.println(e2.toString());
+	}
+	public static void main(String[] args) {
+		Principal sus = new Principal();
+
+	}
+
+}

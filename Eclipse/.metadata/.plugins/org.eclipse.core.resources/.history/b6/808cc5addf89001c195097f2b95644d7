@@ -1,0 +1,8 @@
+package interface3_clasesherencia;
+
+public interface Cazador {
+	void perseguir(Animal animal);
+	
+	
+	
+}

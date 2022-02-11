@@ -1,0 +1,20 @@
+package empleados_poli;
+
+public class Principal {
+	
+	public Principal() {
+		Empleado e1 = new Mozos("ABCSUS", "Giorgi", 1100, 5);
+		Empleado e2 = new Mensajeros("SUS", "Nika", 1100, 18);
+		Dinerito cash = new Dinerito();
+		System.out.println(e1.toString());
+		cash.dinero(e1);
+		
+		System.out.println(e2.toString());
+		cash.dinero(e2);
+	}
+	public static void main(String[] args) {
+		Principal sus = new Principal();
+
+	}
+
+}

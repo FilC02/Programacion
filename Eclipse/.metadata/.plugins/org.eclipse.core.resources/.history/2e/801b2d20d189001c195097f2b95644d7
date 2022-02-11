@@ -1,0 +1,5 @@
+package interface3_clasesherencia;
+
+public interface Presa {
+
+}

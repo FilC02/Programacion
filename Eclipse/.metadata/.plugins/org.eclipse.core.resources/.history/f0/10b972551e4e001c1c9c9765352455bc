@@ -1,0 +1,49 @@
+package maquinaexpendedora;
+import java.util.*;
+	
+public class MaquinaPrincipal {
+	static Maquina admin = null;
+	static Maquina client =  null;
+	
+	static Scanner teclado = new Scanner(System.in);
+	
+	public MaquinaPrincipal() {
+		System.out.println("Bienvenido de nuevo ADMIN");
+		System.out.println("Que voy a vender? ");
+		String productos = teclado.nextLine();
+		int monedero = 0;
+		System.out.println("Cuantas existencias tengo? ");
+		int existencias = teclado.nextInt();
+		System.out.println("Cual es el precio al cual voy a vender? ");
+		int precio = teclado.nextInt();
+		int ganancias = 0;
+		admin = new Maquina(productos, monedero, existencias, precio, ganancias);
+		System.out.println("Cerrando interfaz de administrador");
+		
+		
+		
+		client = new Maquina(productos, monedero, existencias, precio, ganancias);
+		System.out.println("Bienvenido clienta/e");
+		System.out.println("Esta máquina vende: " + client.GetProductos());
+		
+		
+		while (client.GetExistencias() > 0) {
+		client.tragarMoneda();
+		
+		client.Vender();
+		
+		client.devolverMonedas();
+		
+		
+		
+		
+		} 
+		System.out.println("Ya no hay mas existencias :("); 
+	}
+	
+	
+	public static void main(String[] args) {
+		MaquinaPrincipal coc = new MaquinaPrincipal();
+	}
+
+}

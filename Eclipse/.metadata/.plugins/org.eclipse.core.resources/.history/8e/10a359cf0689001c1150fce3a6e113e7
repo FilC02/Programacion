@@ -1,0 +1,5 @@
+package interface_herenciamutliple;
+
+public interface Ianimal {
+
+}

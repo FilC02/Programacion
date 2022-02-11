@@ -1,0 +1,103 @@
+package maquinaexpendedora;
+
+import java.util.*;
+
+public class Maquina {
+	private String productos;
+	private int monedero;
+	private int existencias;
+	private int precio;
+	private int ganancias;
+	private int vuelta;
+	static Scanner teclado = new Scanner(System.in);
+	
+	public Maquina(String productos, int monedero, int existencias, int precio, int ganancias) {
+		SetProductos(productos);
+		SetMonedero(monedero);
+		SetExistencias(existencias);
+		SetPrecio(precio);
+		SetGanancias(ganancias);
+		
+	}
+
+	public void SetProductos(String productos) {
+		this.productos = productos;
+	}
+	public void SetMonedero(int monedero) {
+		this.monedero = monedero;
+	}
+	public void SetExistencias(int existencias) {
+		this.existencias = existencias;
+	}
+	
+	public void SetPrecio(int precio) {
+		this.precio = precio;
+	}
+	public void SetGanancias(int ganancias) {
+		this.ganancias = ganancias;
+	}
+	
+	public String GetProductos() {
+		return productos;
+	}
+	public int GetMonedero() {
+		return monedero;
+	}
+	
+	public int GetExistencias() {
+		return existencias;
+	}
+	
+	public int GetPrecio() {
+		return precio;
+	}
+	
+	public int GetGanancias() {
+		return ganancias;
+	}
+	
+	public void tragarMoneda() {
+		if (monedero == 0) {
+			System.out.println("Bienvenido/a, la maquina solo acepta monedas de 10, 20 y 50 ");
+		}
+		int valor;
+		do {
+			System.out.println("Introducir moneda ");
+			valor = teclado.nextInt();
+			if (valor == 10 || valor == 20 || valor == 50) {
+				monedero = monedero + valor; 
+				
+			}	
+			else 
+				System.out.println("Solo se aceptan monedas de 10, 20 o 50"); 
+			
+			vuelta = (monedero - precio);
+			if (precio - monedero > 0)  {
+				System.out.println("Faltan: " + (precio - monedero) + " céntimos");
+			}
+		}  while (monedero < precio);
+		
+		
+		 
+		}
+			
+	
+	public void Vender() {
+		existencias--;
+		ganancias = ganancias + precio;
+		
+	}
+	public void devolverMonedas() {
+		
+		if (vuelta > 0)  { 
+			System.out.println("La vuelta es: " + vuelta); }
+		vuelta = 0;
+		monedero = 0;
+			
+	}
+	public String toString(String productos, int precio, int existencias, int ganancias) {
+		return "Producto a vender: " + productos + " El precio: " + precio + " Las existencias: " + existencias + " Ganancias: " + ganancias;
+	}
+	
+
+}

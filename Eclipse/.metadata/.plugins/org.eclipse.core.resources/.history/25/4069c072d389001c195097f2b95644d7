@@ -1,0 +1,11 @@
+package interface3_clasesherencia;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		Perro  sus = new Perro("AAAAA", "BBBBB");
+		Gato sus2 = new Gato("AAAA", "BBBB");
+
+	}
+
+}

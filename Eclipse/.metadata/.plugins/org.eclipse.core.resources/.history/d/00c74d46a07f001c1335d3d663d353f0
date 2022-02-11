@@ -1,0 +1,18 @@
+package empleados_poli;
+
+public class Empleado {
+	protected String codigo;
+	protected String nombre;
+	protected double sueldobase;
+	
+	public Empleado(String codigo, String nombre, double sueldobase) {
+		this.codigo = codigo;
+		this.nombre = nombre;
+		this.sueldobase = sueldobase;
+	}
+	
+	public Empleado() {
+		this(null,null,0);
+	}
+
+}

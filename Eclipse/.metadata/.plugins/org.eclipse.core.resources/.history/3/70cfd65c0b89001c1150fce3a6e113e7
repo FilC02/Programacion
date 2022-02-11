@@ -1,0 +1,18 @@
+package interface_herenciamutliple;
+
+public class Principal {
+	public Principal() {
+		Perro dog = new Perro();
+		SerVivo dawg = new Perro("a", "b");
+		Ianimal dou = new Perro("a", "b");
+		//System.out.println(dog.toString());
+		//System.out.println(dawg.toString());
+		//System.out.println(dou.toString());
+		System.out.printlnTIPOS_CELULAS);
+	}
+	public static void main(String[] args) {
+		Principal p = new Principal();
+
+	}
+
+}

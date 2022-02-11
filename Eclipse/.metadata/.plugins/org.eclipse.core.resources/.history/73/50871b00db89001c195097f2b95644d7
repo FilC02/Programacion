@@ -1,0 +1,22 @@
+package interface3_clasesherencia;
+
+public class Principal {
+	public Principal() {
+		Perro  sus = new Perro("P", "PB");
+		Gato sus2 = new Gato("G", "GB");
+		Raton sus3 = new Raton("R", "RB");
+		Embassy embassy = new Embassy();
+		
+		embassy.animal(sus);
+		embassy.animal(sus2);
+		embassy.animal(sus3);
+		
+	}
+	public static void main(String[] args) {
+		Principal amogus = new Principal();
+		
+		
+		
+	}
+
+}

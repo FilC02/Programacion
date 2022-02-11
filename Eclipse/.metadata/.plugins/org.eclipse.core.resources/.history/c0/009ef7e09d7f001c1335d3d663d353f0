@@ -1,0 +1,12 @@
+package empleados_poli;
+
+public class Empleado {
+	protected String codigo;
+	protected String nombre;
+	protected double sueldobase;
+	
+	public Empleado() {
+		this(null,null,null);
+	}
+
+}

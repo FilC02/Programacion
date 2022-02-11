@@ -1,0 +1,7 @@
+package empleados_poli;
+
+public class Dinerito {
+	public void dinero(Empleado empleado) {
+		
+	}
+}
