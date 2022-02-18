@@ -1,0 +1,20 @@
+package interface_puertiventana;
+
+public class P1 extends Entrances implements Iwiring{
+	
+	private boolean apertura;
+	public P1(boolean apertura) {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void abrir() {
+		System.out.println("Abriendo puerta"); //Placeholder
+		apertura = apertura;
+	}
+	
+	public void auto_close() {
+		System.out.println("Auto-closing..."); //Placeholder
+	}
+	
+}

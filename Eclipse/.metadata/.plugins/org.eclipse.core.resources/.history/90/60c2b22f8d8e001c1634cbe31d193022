@@ -1,0 +1,14 @@
+package interface_puertiventana;
+
+public class P3 extends Entrances{
+	
+	public P1() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void abrir() {
+		System.out.println("Abriendo puerta"); //Placeholder
+	}
+
+}

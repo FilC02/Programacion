@@ -1,0 +1,17 @@
+package interface_vehiculo;
+
+public class Principal {
+	public Principal() {
+		VehiculoMotorizado auto = new  Auto("Nations inc", "A231E", 2006, 3423, "VAN", 4);
+		VehiculoMotorizado moto = new Moto("Sheni deda inc", "AASD123", 2004, 342, "cotidiano");
+		VehiculoMotorizado camion = new Camion("Tqveni", "ABCD123", 2001, 3051, 2);
+		
+		
+	}
+
+	public static void main(String[] args) {
+		new Principal();
+		String fabricante, String modelo, int año, double kilometraje, Tipos estilo, int pasajeros
+	}
+
+}

@@ -1,0 +1,14 @@
+package interface_puertiventana;
+
+public class J4 {
+	
+	public J4() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void abrir() {
+		System.out.println("Abriendo puerta"); //Placeholder
+	}
+
+}

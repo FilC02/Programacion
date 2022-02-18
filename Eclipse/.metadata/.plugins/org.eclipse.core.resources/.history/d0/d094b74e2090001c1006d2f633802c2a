@@ -1,0 +1,15 @@
+package interface_puertasreviewed;
+
+public class Principal {
+	
+	Entrances P1 = new Automatico();
+	Entrances P2 = new Manual();
+	Entrances P3 = new Automatico();
+	Window w4 = new Window();
+	
+	public static void main(String[] args) {
+		new Principal();
+
+	}
+
+}

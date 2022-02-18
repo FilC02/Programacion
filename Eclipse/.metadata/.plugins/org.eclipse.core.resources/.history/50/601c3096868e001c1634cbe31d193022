@@ -1,0 +1,15 @@
+package interface_vehiculo;
+
+public class Principal {
+	public Principal() {
+		VehiculoMotorizado auto = new  Auto ("Nations inc", "A231E", 2006, "van");
+		VehiculoMotorizado auto = new
+		
+	}
+
+	public static void main(String[] args) {
+		new Principal();
+
+	}
+
+}

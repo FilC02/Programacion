@@ -1,6 +1,0 @@
-package interface3_clasesherencia;
-
-public interface Presa {
-	//public abstract 
-	void huir(Animal a); 
-}

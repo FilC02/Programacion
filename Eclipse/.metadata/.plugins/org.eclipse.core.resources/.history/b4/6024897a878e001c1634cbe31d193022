@@ -1,0 +1,20 @@
+package interface_vehiculo;
+
+public class Camion extends VehiculoMotorizado {
+	private int remolques;
+
+	public Camion() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Camion(String fabricante, String modelo, int año, double kilometraje, int remolques, int pasajeros) {
+		super(fabricante, modelo, año, kilometraje);
+		this.remolques = remolques;
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+
+}

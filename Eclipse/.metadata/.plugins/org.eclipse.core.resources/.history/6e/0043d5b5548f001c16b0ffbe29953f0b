@@ -1,0 +1,31 @@
+package interface_puertiventana;
+
+public class P1 extends Entrances implements Iwiring{
+	boolean apertura = false;
+	
+	public P1() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void abrir() {
+		
+		System.out.println("Abriendo/cerrando puerta 1"); //Placeholder useless
+		super.apertura =! super.apertura;
+		
+	}
+	
+	public void auto_close() {
+		System.out.println("Performing action 1");
+		apertura = true;
+		//Placeholder
+	}
+	
+	public void estado() {
+		if (apertura = true)
+			System.out.println(" P1 Abierta");
+		else
+			System.out.println("P1 Cerrada");
+	}
+	
+}

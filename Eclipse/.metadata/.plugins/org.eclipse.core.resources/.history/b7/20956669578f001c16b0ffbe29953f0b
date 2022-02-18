@@ -1,0 +1,27 @@
+package interface_puertiventana;
+
+public class P3 extends Entrances implements Iwiring{
+	
+	public P3() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void abrir() {
+		System.out.println("Abriendo/cerrando puerta 3"); //Placeholder useless
+		super.apertura =! super.apertura;
+	}
+	
+	public void auto_close() {
+		System.out.println("Performing action 3");
+		super.apertura =! super.apertura;          //Placeholder
+	}
+	
+	public void estado() {
+		if (super.apertura = true)
+			System.out.println("P3 Abierto");
+		else
+			System.out.println("P3 Cerrado");
+	}
+
+}

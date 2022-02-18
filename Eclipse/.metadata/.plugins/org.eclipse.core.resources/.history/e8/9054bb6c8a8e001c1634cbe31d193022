@@ -1,0 +1,20 @@
+package interface_vehiculo;
+
+public class Moto extends VehiculoMotorizado {
+	private String uso;
+
+	public Moto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Moto(String fabricante, String modelo, int año, double kilometraje, String uso) {
+		super(fabricante, modelo, año, kilometraje);
+		this.uso = uso;
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+}

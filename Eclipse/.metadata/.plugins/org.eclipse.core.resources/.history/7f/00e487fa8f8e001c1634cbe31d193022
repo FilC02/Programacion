@@ -1,0 +1,21 @@
+package interface_puertiventana;
+
+public class J4 extends Entrances implements Iwiring {
+	
+	
+	
+	public J4(boolean apertura) {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void abrir() {
+		System.out.println("Abriendo/cerrando puerta"); //Placeholder
+		super.apertura =! super.apertura;
+	}
+	
+	public void auto_close() {
+		System.out.println("Auto-closing..."); //Placeholder
+	}
+
+}

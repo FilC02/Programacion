@@ -1,0 +1,17 @@
+package interface_vehiculo;
+
+public class Warehouse {
+	public void turismo(VehiculoMotorizado vehi) {
+		if (vehi instanceof Auto) {
+			System.out.println(vehi.toString());
+			((Auto) vehi).comprobar();	
+		}
+		if (vehi instanceof Moto) {
+			System.out.println(vehi.toString());
+		}
+		if (vehi instanceof Camion) {
+			System.out.println(vehi.toString());
+			((Camion) vehi).comprobar();	
+		}
+	}
+}

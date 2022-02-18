@@ -1,0 +1,47 @@
+package interface_puertasreviewed;
+
+public class Principal {
+	
+	Automatico P1 = new Automatico();
+	Manual P2 = new Manual();
+	Automatico P3 = new Automatico();
+	Window w4 = new Window();
+	
+	
+	public Principal() {
+		int n = 0;
+		for (int t = 0; t < 6; t++) {
+			
+			n = sus.nextInt(3) + 1;
+				switch (n) {
+					case 1:
+						P1.open();
+						break;
+					case 2:
+						P2.abrir();
+						break;
+					case 3:
+						P3.auto_open();
+						break;
+					case 4:
+						W4.auto_open();
+						break;
+				}
+		}
+		
+		
+		e1.estado();
+		e2.estado();
+		e3.estado();
+		e4.estado();
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		new Principal();
+
+	}
+
+}

@@ -1,5 +1,0 @@
-package interface_herenciamutliple;
-
-public class Perro extends SerVivo implements Ianimal {
-
-}

@@ -1,6 +1,0 @@
-package interface_herenciamutliple;
-
-public interface Ianimal {
-	public static final int TIPOS_CELULAS =5;
-	public abstract void vacunar();
-}

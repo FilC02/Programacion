@@ -1,7 +1,0 @@
-package interface_clasesnorelacionadas;
-
-public class Polimorfismo {
-	public void animaux(IaccionesImprescindibles act) {
-		System.out.println(act.comer());
-	}
-}

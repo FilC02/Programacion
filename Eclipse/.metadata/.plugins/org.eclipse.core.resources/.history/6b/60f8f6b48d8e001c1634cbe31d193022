@@ -1,0 +1,11 @@
+package interface_puertiventana;
+
+public abstract class Entrances {
+	protected boolean abertura = true;
+	
+	
+	
+	
+	public abstract void abrir();
+
+}
