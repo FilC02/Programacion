@@ -1,5 +1,0 @@
-package interface_vehiculo;
-
-public class Auto extends VehiculoMotorizado {
-	private String estilo;
-}

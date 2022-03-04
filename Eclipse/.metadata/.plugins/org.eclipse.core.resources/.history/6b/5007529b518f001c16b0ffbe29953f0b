@@ -1,7 +1,0 @@
-package interface_vehiculo;
-
-public interface Stringable {
-	
-	void stringable
-
-}

@@ -1,7 +1,0 @@
-package interface_vehiculo;
-
-public class Warehouse {
-	public void turismo(VehiculoMotorizado vehi) {
-		
-	}
-}

@@ -1,7 +1,0 @@
-package interface_vehiculo;
-
-public class Camion extends VehiculoMotorizado {
-	private int remolques;
-	
-
-}
